@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+.slider owl-carousel {
+	margin-bottom: 50px
+}
+.slider{
+  max-width: 1100px;
+  display: flex;
+}
+.slider .card{
+  flex: 1;
+  margin: 0 10px;
+  background: #fff;
+}
+.slider .card .img{
+  height: 200px;
+  width: 100%;
+  cursor:pointer;
+}
+.slider .card .img img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  cursor:pointer;
+}
+.slider .card .content{
+  padding: 10px 20px;
+}
+.card .content .title{
+  font-size: 22px;
+  text-transform:uppercase;
+  text-align:center;
+  font-family: 'Comfortaa', cursive;
+  padding: 8px;
+  cursor:pointer;
+  color: #444444;
+  
+}
+ a {
+	text-decoration: none;
+
+	
+}
+
+
+.title:after {
+ 
+  display: block;
+  background-color:#CDC1C5;
+  height: 3px;
+  width: 30%;
+  margin: 20px auto 10px;
+  content: " ";
+  
+}
+
+}
+.card .content .sub-title{
+  font-size: 15px;
+  text-align:center;
+  font-weight: 600;
+  color: #444444;
+  line-height: 20px;
+  text-transform:uppercase;
+  font-family: 'Comfortaa', cursive;
+
+  
+}
+.card .content p{
+  text-aligne:right;
+  margin: 10px 0;
+  font-family: 'Comfortaa', cursive;
+
+}
+.card .content .btn{
+  display: block;
+  text-align: left;
+  margin: 10px 0;
+  align-items: center;
+
+}
+.card .content .btn button{
+  background: rgb(138,133,133);
+  background: linear-gradient(90deg, rgba(138,133,133,1) 100%, rgba(0,0,0,1) 100%);
+  color: #fff;
+  border: none;
+  outline: none;
+  font-size: 17px;
+  padding: 5px 8px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.2s;
+  text-align: center;
+  font-family: 'Comfortaa', cursive;
+
+}
+.card .content .btn button:hover{
+  transform: scale(0.9);
+}
+
+button {
+  text-transform:uppercase;
+  text-align:center;
+  font-family: 'Comfortaa', cursive;
+  
+}
+
